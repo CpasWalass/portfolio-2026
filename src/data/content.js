@@ -233,6 +233,22 @@ export const projects = [
     links: [{ label: 'Code source', href: 'https://github.com/CpasWalass/resto' }],
   },
   {
+    id: 'portfolio-2026',
+    sea: 'west-blue',
+    title: 'Portfolio 2026',
+    year: '2026',
+    x: 430, y: 553,
+    context: 'Projet personnel',
+    summary:
+      'Ce site : une mer en 3D temps réel pilotée par le défilement, un navire en style animé, une carte des projets interactive, un cycle météo jour, nuit, vent et pluie, et une ambiance sonore synthétisée.',
+    stack: ['Three.js', 'JavaScript', 'Vite', 'HTML', 'CSS'],
+    image: '/images/projects/portfolio.webp',
+    links: [
+      { label: 'Voir le site', href: 'https://walassportfolio.netlify.app' },
+      { label: 'Code source', href: 'https://github.com/CpasWalass/portfolio-2026' },
+    ],
+  },
+  {
     id: 'genius-scorer',
     sea: 'south-blue',
     title: 'Genius Scorer',
@@ -283,7 +299,7 @@ export const projects = [
 // Skills grouped by domain. Projects using each one are derived from `projects`.
 export const arsenal = [
   { id: 'back', name: 'Back-end', tools: ['Laravel', 'PHP', 'Java', 'Spring Boot', 'Spring Security', 'Python', 'Flask', 'Odoo', 'REST API', 'JWT', 'Swagger'] },
-  { id: 'front', name: 'Front-end', tools: ['Next.js', 'Angular', 'TypeScript', 'JavaScript', 'HTML', 'CSS', 'Blade', 'Bootstrap', 'Tailwind', 'Chart.js'] },
+  { id: 'front', name: 'Front-end', tools: ['Next.js', 'Angular', 'TypeScript', 'JavaScript', 'Three.js', 'HTML', 'CSS', 'Blade', 'Bootstrap', 'Tailwind', 'Chart.js', 'Vite'] },
   { id: 'mobile', name: 'Mobile et desktop', tools: ['Flutter', 'Dart', 'Swing'] },
   { id: 'data', name: 'Données', tools: ['MySQL', 'PostgreSQL', 'Oracle', 'SQL Server', 'Firebase', 'JDBC'] },
   { id: 'ia', name: 'Vision par ordinateur', tools: ['OpenCV', 'TensorFlow'] },
