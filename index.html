@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lawadan Kodjo Wulfred · Développeur Full-Stack</title>
+    <meta
+      name="description"
+      content="Portfolio de Lawadan Kodjo Wulfred (Walass), développeur Full-Stack chez E-business Afrique à Lomé. Laravel, Next.js, Spring Boot, Flutter, Odoo."
+    />
+    <meta name="theme-color" content="#f6f1e8" />
+    <meta property="og:title" content="Lawadan Kodjo Wulfred · Développeur Full-Stack" />
+    <meta property="og:description" content="Développeur Full-Stack chez E-business Afrique, ingénieur des travaux informatiques diplômé de l'IAI-Togo." />
+    <meta property="og:image" content="/images/me/portrait.jpg" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      try {
+        var weather = localStorage.getItem('walass-weather');
+        if (weather === 'night' || weather === 'wind' || weather === 'rain') {
+          document.documentElement.dataset.weather = weather;
+          document.documentElement.dataset.theme = 'dark';
+        }
+      } catch (error) {
+        /* Storage unavailable (private mode): stay in day mode. */
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..800,0..100,0..1;1,9..144,300..800,0..100,0..1&family=Nunito:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <canvas class="sea-canvas" data-seascape aria-hidden="true"></canvas>
+    <div class="sea-veil" aria-hidden="true"></div>
+
+    <header class="topbar" data-topbar>
+      <a class="brand" href="#accueil" aria-label="Walass, retour en haut de page" title="Double-cliquez : jour, nuit, vent, pluie" data-brand>
+        <img class="brand-mark" src="/favicon.svg" alt="" width="36" height="36" />
+        <span class="brand-name">Walass</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="menu-toggle-bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <nav class="menu" id="menu" aria-label="Navigation principale">
+        <ol>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#engagements">Engagements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+        <a class="button button-small" href="/cv/CV_Lawadan_Kodjo_Wulfred.pdf" download>CV</a>
+      </nav>
+    </header>
+
+    <main id="contenu">
+      <section class="hero" id="accueil" data-section>
+        <div class="hero-veil" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <p class="chapter chapter-light">Walass · Lomé, Togo</p>
+          <h1 class="hero-title">Lawadan Kodjo Wulfred</h1>
+          <p class="hero-role">Développeur Full-Stack chez <span class="nowrap">E-business Afrique</span></p>
+          <p class="hero-lede">
+            Ingénieur des travaux informatiques diplômé de l'IAI-Togo, je conçois et développe des applications
+            web, mobiles et métiers, de la base de données à l'interface.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#projets">Voir les projets</a>
+            <a class="button button-glass" href="/cv/CV_Lawadan_Kodjo_Wulfred.pdf" download>Télécharger le CV</a>
+          </div>
+          <dl class="facts">
+            <div><dt>Web · Mobile · ERP</dt><dd>de la base de données à l'interface</dd></div>
+            <div><dt>2026</dt><dd>diplômé de l'IAI-Togo</dd></div>
+            <div><dt>Laravel · Next.js</dt><dd>Spring Boot · Flutter</dd></div>
+          </dl>
+        </div>
+        <a class="hero-scroll" href="#profil">Découvrir</a>
+      </section>
+
+      <section class="section" id="profil" data-section>
+        <div class="profile">
+          <figure class="profile-photo">
+            <img src="/images/me/portrait.webp" alt="Portrait de Lawadan Kodjo Wulfred" loading="lazy" width="853" height="1280" />
+          </figure>
+          <div class="profile-text">
+            <p class="chapter">Chapitre 1 · Profil</p>
+            <h2 class="section-title">Des applications métier, de la base de données à l'interface.</h2>
+            <p>
+              Développeur Full-Stack chez <strong>E-business Afrique</strong> depuis mai 2026, je travaille sur
+              différents projets, dont une plateforme de gestion financière développée avec Next.js et Laravel, ainsi
+              qu'un outil de pilotage des tests d'acceptation.
+            </p>
+            <p>
+              Diplômé de l'Institut Africain d'Informatique en Génie Logiciel en 2026, j'ai également participé au
+              développement d'un système de gestion de microfinance lors de mon stage chez Groupe Atakora.
+            </p>
+            <p>
+              À l'IAI, j'ai eu plusieurs occasions de sortir du cadre purement technique : responsable des clubs de
+              Génie en Herbe et d'Art Oratoire, mais aussi rédacteur en chef du magazine de l'école. Entre les débats,
+              la prise de parole et la rédaction, j'ai exploré d'autres façons de construire et de partager des idées.
+            </p>
+            <dl class="dossier" data-dossier></dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projets" data-section>
+        <header class="section-head">
+          <p class="chapter">Chapitre 2 · Projets</p>
+          <h2 class="section-title">Projets réalisés</h2>
+          <p class="section-lede" data-map-lede></p>
+        </header>
+        <div class="explorer">
+          <div class="world-map" data-world-map></div>
+          <article class="logbook" data-logbook aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section class="section" id="competences" data-section>
+        <header class="section-head">
+          <p class="chapter">Chapitre 3 · Compétences</p>
+          <h2 class="section-title">Compétences techniques</h2>
+          <p class="section-lede">
+            Les outils mis en avant ont été utilisés dans les projets présentés.
+          </p>
+        </header>
+        <div class="arsenal" data-arsenal></div>
+      </section>
+
+      <section class="section" id="parcours" data-section>
+        <header class="section-head">
+          <p class="chapter">Chapitre 4 · Parcours</p>
+          <h2 class="section-title">Expérience et formation</h2>
+        </header>
+        <ol class="journal" data-journal></ol>
+      </section>
+
+      <section class="section" id="engagements" data-section>
+        <header class="section-head">
+          <p class="chapter">Chapitre 5 · Engagements</p>
+          <h2 class="section-title">Clubs, groupes et concours</h2>
+        </header>
+        <ul class="crews" data-offstage></ul>
+      </section>
+
+      <section class="section section-contact" id="contact" data-section>
+        <div class="contact">
+          <p class="chapter">Chapitre 6 · Contact</p>
+          <h2 class="contact-title">Travaillons ensemble.</h2>
+          <p class="contact-lede">Pour une opportunité, un projet ou une question, le plus simple est de m'écrire.</p>
+          <div class="contact-mail">
+            <a class="contact-address" data-email-link></a>
+            <button class="button button-ghost button-small" type="button" data-copy-email>Copier l'adresse</button>
+            <span class="contact-feedback" role="status" data-copy-feedback></span>
+          </div>
+          <ul class="contact-links" data-contact-links></ul>
+        </div>
+        <figure class="contact-photo">
+          <img src="/images/me/gala.webp" alt="Lawadan Kodjo Wulfred au micro" loading="lazy" width="900" height="1350" />
+        </figure>
+        <footer class="footer">
+          <p>© <span data-year></span> Lawadan Kodjo Wulfred · Lomé, Togo</p>
+        </footer>
+      </section>
+    </main>
+
+    <p class="weather-toast" role="status" data-weather-toast></p>
+    <button class="sound-toggle" type="button" aria-pressed="false" data-sound-toggle>
+      <span class="sound-bars" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <span class="sound-label" data-sound-label>Activer le son de la mer</span>
+    </button>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
