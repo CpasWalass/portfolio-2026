@@ -352,7 +352,8 @@ export const arsenal = [
   { id: 'mobile', name: 'Mobile et desktop', tools: ['Flutter', 'Dart', 'PWA', 'Swing'] },
   { id: 'data', name: 'Données', tools: ['MySQL', 'PostgreSQL', 'Oracle', 'SQL Server', 'Supabase', 'Firebase', 'JDBC'] },
   { id: 'ia', name: 'Vision par ordinateur', tools: ['OpenCV', 'TensorFlow'] },
-  { id: 'method', name: 'Méthodes et outils', tools: ['Merise', 'UML', 'Agile', 'Git', 'Docker', 'Figma'] },
+  { id: 'design', name: 'Design UI/UX', tools: ['Figma', 'Maquettes', 'Prototypage', 'Wireframes', 'Design system', 'Responsive design'] },
+  { id: 'method', name: 'Méthodes et outils', tools: ['Merise', 'UML', 'Agile', 'Git', 'Docker'] },
 ];
 
 export const journey = [
