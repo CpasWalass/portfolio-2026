@@ -233,6 +233,55 @@ export const projects = [
     links: [{ label: 'Code source', href: 'https://github.com/CpasWalass/resto' }],
   },
   {
+    id: 'immoflow',
+    sea: 'north-blue',
+    title: 'ImmoFlow',
+    year: '2026',
+    x: 80, y: 185,
+    context: 'Projet POO, IAI',
+    summary:
+      "Plateforme de location immobilière : biens, réservations, contrats de bail, locataires, comptabilité avec génération de PDF, messagerie, notifications et journal d'audit, avec carte des biens.",
+    stack: ['Angular', 'TypeScript', 'Django', 'Python', 'REST API', 'JWT', 'Chart.js'],
+    links: [],
+  },
+  {
+    id: 'machorale',
+    sea: 'east-blue',
+    title: 'Machorale',
+    year: '2026',
+    x: 630, y: 250,
+    context: 'Application mobile hors connexion',
+    summary:
+      'Gestion de chorale : appel et assiduité, membres et pupitres, trésorerie (pénalités, mensualités, cotisations, journal de caisse) et rapports PDF. Données stockées sur le téléphone, fonctionne sans connexion.',
+    stack: ['Preact', 'TypeScript', 'PWA', 'Vite'],
+    links: [],
+  },
+  {
+    id: 'mystro',
+    sea: 'east-blue',
+    title: 'Mystro',
+    year: '2026',
+    x: 965, y: 195,
+    context: 'Application mobile, en cours',
+    summary:
+      "Lecture de partitions : une partition scannée est convertie en MusicXML par reconnaissance optique (Audiveris), puis affichée et découpée par pupitre pour le travail des choristes.",
+    stack: ['React', 'TypeScript', 'PWA', 'Vite'],
+    links: [],
+  },
+  {
+    id: 'iai-mag',
+    sea: 'south-blue',
+    title: 'IAI-MAG',
+    year: '2026',
+    x: 628, y: 705,
+    context: "Magazine étudiant de l'IAI-Togo",
+    summary:
+      "Site du magazine étudiant de l'IAI : vitrine publique au style journal papier et tableau de bord pour la rédaction, avec éditeur d'articles, rubriques et gestion des membres.",
+    stack: ['Next.js', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind'],
+    image: '/images/projects/iai-mag.webp',
+    links: [{ label: 'Voir le site', href: 'https://iai-mag.vercel.app' }],
+  },
+  {
     id: 'portfolio-2026',
     sea: 'west-blue',
     title: 'Portfolio 2026',
@@ -298,10 +347,10 @@ export const projects = [
 
 // Skills grouped by domain. Projects using each one are derived from `projects`.
 export const arsenal = [
-  { id: 'back', name: 'Back-end', tools: ['Laravel', 'PHP', 'Java', 'Spring Boot', 'Spring Security', 'Python', 'Flask', 'Odoo', 'REST API', 'JWT', 'Swagger'] },
-  { id: 'front', name: 'Front-end', tools: ['Next.js', 'Angular', 'TypeScript', 'JavaScript', 'Three.js', 'HTML', 'CSS', 'Blade', 'Bootstrap', 'Tailwind', 'Chart.js', 'Vite'] },
-  { id: 'mobile', name: 'Mobile et desktop', tools: ['Flutter', 'Dart', 'Swing'] },
-  { id: 'data', name: 'Données', tools: ['MySQL', 'PostgreSQL', 'Oracle', 'SQL Server', 'Firebase', 'JDBC'] },
+  { id: 'back', name: 'Back-end', tools: ['Laravel', 'PHP', 'Java', 'Spring Boot', 'Spring Security', 'Python', 'Flask', 'Django', 'Odoo', 'REST API', 'JWT', 'Swagger'] },
+  { id: 'front', name: 'Front-end', tools: ['Next.js', 'React', 'Preact', 'Angular', 'TypeScript', 'JavaScript', 'Three.js', 'HTML', 'CSS', 'Blade', 'Bootstrap', 'Tailwind', 'Chart.js', 'Vite'] },
+  { id: 'mobile', name: 'Mobile et desktop', tools: ['Flutter', 'Dart', 'PWA', 'Swing'] },
+  { id: 'data', name: 'Données', tools: ['MySQL', 'PostgreSQL', 'Oracle', 'SQL Server', 'Supabase', 'Firebase', 'JDBC'] },
   { id: 'ia', name: 'Vision par ordinateur', tools: ['OpenCV', 'TensorFlow'] },
   { id: 'method', name: 'Méthodes et outils', tools: ['Merise', 'UML', 'Agile', 'Git', 'Docker', 'Figma'] },
 ];

@@ -23,9 +23,6 @@ import {
   Vector3,
 } from 'three';
 
-// Anime-style homage to the Thousand Sunny, carrying Walass's "W" instead of a Jolly Roger.
-// Cel shading (three tone steps) and ink outlines give it the look of the series' artwork.
-// Local axes: bow towards +z, deck up +y, waterline around y = 0.
 
 const INK = '#1d1410';
 const COLORS = {
